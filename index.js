@@ -16,4 +16,8 @@ function circleY(radians, radius) {
     return Math.sin(radians) * radius;
 }
 exports.circleY = circleY;
+function distance(startPoint, endPoint) {
+    return Math.hypot(endPoint.x - startPoint.x, endPoint.y - startPoint.y);
+}
+exports.distance = distance;
 //# sourceMappingURL=index.js.map
