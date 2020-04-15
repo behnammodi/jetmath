@@ -1,3 +1,8 @@
+interface Point {
+  x: number,
+  y: number
+}
+
 function percent(a: number, b: number): number {
   return (a / b) * 100;
 }
@@ -14,4 +19,8 @@ function circleY(radians: number, radius: number): number {
   return Math.sin(radians) * radius;
 }
 
-export { percent, baseLog, circleX, circleY };
+function distance(startPoint:Point, endPoint:Point) {
+  return Math.hypot(endPoint.x - startPoint.x, endPoint.y - startPoint.y);
+}
+
+export { percent, baseLog, circleX, circleY, distance };
