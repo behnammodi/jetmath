@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+exports.distance = exports.circleY = exports.circleX = exports.baseLog = exports.percent = void 0;
 function percent(a, b) {
     return (a / b) * 100;
 }
