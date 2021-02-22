@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uxitten/jetmath.git"
+    "url": "git+https://github.com/behnammodi/jetmath.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Behnam Mohammadi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uxitten/jetmath/issues"
+    "url": "https://github.com/behnammodi/jetmath/issues"
   },
-  "homepage": "https://github.com/uxitten/jetmath#readme",
+  "homepage": "https://github.com/behnammodi/jetmath#readme",
   "devDependencies": {
     "@babel/types": "^7.6.3",
     "@types/jest": "^24.0.19",
